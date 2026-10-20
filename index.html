@@ -68,8 +68,8 @@
 (async function () {
   const container = document.getElementById("labs");
   const count = document.getElementById("count");
-  const apiUrl = "https://api.github.com/repos/SHUBHAM12012005/databytes-learning-labs/contents/labs?ref=main";
-  const baseUrl = "https://shubham12012005.github.io/databytes-learning-labs/labs/";
+  const apiUrl = "https://api.github.com/repos/databyteslabs/databytes-learning-labs/contents/labs?ref=main";
+  const baseUrl = "https://databyteslabs.github.io/databytes-learning-labs/labs/";
   function titleFromFile(filename) {
     return filename.replace(/\.html$/i, "").replace(/[_-]+/g, " ").replace(/\s+/g, " ").trim()
       .replace(/\b\w/g, ch => ch.toUpperCase());
